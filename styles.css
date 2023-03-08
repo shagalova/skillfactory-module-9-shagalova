@@ -1,0 +1,93 @@
+body {
+	font-family: "Open Sans", "Arial", sans-serif;
+	margin: 0;
+}
+header {
+	padding: 20px;
+	border-bottom: 1px solid grey;
+	background-color: #E0E2FF; 
+}
+nav {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.menu {
+	color: #585DB8;	
+	padding-inline: 5px;
+}
+.menu:hover {
+	background-color: #B3AB8B;
+	color: #FFFEFA;
+}
+main {
+	padding-bottom: 50px;
+	padding-left: 30px;
+	background-color: #FFF9E0;
+}
+h1 {
+	font-family: "Lora", serif;
+	font-size: 40px;
+}
+.name {
+	margin-top: 0;
+	padding: 10px;
+	text-align: center;
+}
+.my-foto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+.my-foto__01 {
+	
+	display: block;
+	border: 1px solid grey;
+	margin: auto;
+
+}
+
+.container {
+	display: flex;
+	padding-top: 2em;
+
+
+}
+
+.description {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+
+
+
+h2 {
+	font-family: "Lora", serif;
+	font-size: 30px;
+}
+
+.section {
+	display: inline-block;
+	padding: 3px;
+	margin: 6px auto;
+	transition-property: background-color;
+	background-color: #FFDAB9; 
+}
+
+
+
+.section:hover{
+	background-color: #E0E2FF;
+}
+
+footer {
+	padding: 20px;
+	border-top: 1px solid grey;
+	background-color: #FFFEFA;
+}
+
